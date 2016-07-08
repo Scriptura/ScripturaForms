@@ -209,7 +209,8 @@ if ( ! is_admin() ) {
     echo '<option value="00" selected="selected">' . __( 'Country', 'scriptura' ) . '</option>'; // Sélection par défaut
     echo '<option value="FR">France</option>'; // Sélection mise en avant
 
-    $uriCsv = plugins_url( 'ListOfCountries.csv', __FILE__ ); // Liste des pays, ISO 3166-1
+    $uriCsv = plugin_dir_path( __FILE__ ) . 'ListOfCountries.csv'; // Liste des pays, ISO 3166-1
+    //@note Le chemin doit être définit localement afin d'être compatible avec le SSL.
 
     // Boucle récupérant la liste de tous les pays
     $id_file = fopen( $uriCsv, 'r' ); // 'r' lecture seule
