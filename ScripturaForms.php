@@ -17,18 +17,19 @@
 
 if ( ! is_admin() ) {
 
-  $uri = '//' .$_SERVER[ 'HTTP_HOST' ] . $_SERVER[ 'REQUEST_URI' ]; // Alternative à get_permalink()
+  $uri = '//' . $_SERVER[ 'HTTP_HOST' ] . $_SERVER[ 'REQUEST_URI' ]; // Alternative à get_permalink()
 
-  function ScripturaContactForm () {
+  function ScripturaContactForm( $mail = '', $uri = '' )
+  {
 
     ob_start();
 
     // Passage à la ligne, normalisation pour certaines messageries
-    if ( ! preg_match( '#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#', $mail ) ) :
-    $oel = "\r\n";
-    else :
-    $oel = "\n";
-    endif;
+    if ( ! preg_match( '#^[a-z0-9._-]+@(hotmail|live|msn).[a-z]{2,4}$#', $mail ) ) {
+        $oel = "\r\n";
+    } else {
+        $oel = "\n";
+    }
 
     if ( isset( $_POST[ 'submit' ] ) ) : // Cette condition est un test permettant d'éviter un conflit avec un autre formulaire placé sur la même page
     if ( ! empty( $_POST ) ) :
@@ -102,7 +103,7 @@ if ( ! is_admin() ) {
       $valid = false;
       $erreurMessage = '<p>' . __( 'Invalid field : Your Message has less than 10 characters.', 'scriptura' ) . '</p>';
     }
-    if ( strlen( $message ) > 4000) {
+    if ( strlen( $message ) > 4000 ) {
       $valid = false;
       $erreurMessage = '<p>' . __( 'Invalid field : Your message is longer than 4000 characters.', 'scriptura' ) . '</p>';
     }
@@ -128,11 +129,12 @@ if ( ! is_admin() ) {
       $tel = htmlentities( addslashes( $tel ) );
       $message = htmlentities( addslashes( $message ) );
       $message = stripslashes( $_POST[ 'message' ] );
-    if ( get_option( 'scriptura_email_contact' ) ) :
-      $to = get_option( 'scriptura_email_contact' );
-    else :
+      $emailContacts = get_option( 'scriptura_emails_contact' );
+    if ( $emailsContact ) {
+      $to = $emailContacts;
+    } else {
       $to = get_option( 'admin_email' );
-    endif;
+    }
       $toCopie = $email;
       $subject = 'Formulaire de contact';
       $subjectCopie = 'Copie de votre message';
@@ -216,9 +218,9 @@ if ( ! is_admin() ) {
     $id_file = fopen( $uriCsv, 'r' ); // 'r' lecture seule
     while ( $line = fgets( $id_file, 1024 ) ) { // '1024' Nombre d'octets max par ligne et par défaut
       $line = explode( ' ; ', $line ); // Choix du séparateur entre les données de la ligne
-      echo '<option value="' . $line[0] . '">' . $line[1] . '</option>'; // Retourne toutes les valeurs sur ce format
+      echo '<option value="' . $line[ 0 ] . '">' . $line[ 1 ] . '</option>'; // Retourne toutes les valeurs sur ce format
       if ( $pays == $line[0] ) // Sélection en cours
-        echo '<option value="' . $line[0] . '" selected="selected">' . $line[1] . '</option>'; // Retourne la sélection en cours
+        echo '<option value="' . $line[ 0 ] . '" selected="selected">' . $line[ 1 ] . '</option>'; // Retourne la sélection en cours
     }
 
     echo '</select>';
