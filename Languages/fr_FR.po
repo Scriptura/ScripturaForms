@@ -1,0 +1,333 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ScripturaForms\n"
+"POT-Creation-Date: 2016-10-18 08:01+0100\n"
+"PO-Revision-Date: 2016-10-18 08:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: Olivier Chavarin\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../ScripturaForms.php:52
+msgid "Invalid field: your name contains a single character."
+msgstr "Champ invalide : votre nom contient un seul caractère."
+
+#: ../ScripturaForms.php:56
+msgid "Invalid field: your name is longer than 30 characters."
+msgstr "Champ invalide : votre message a plus de 4000 caractères."
+
+#: ../ScripturaForms.php:60
+msgid "Invalid field: it lacks a capital letter at the beginning of your name."
+msgstr "Champ invalide : il manque une lettre majuscule au début de votre nom."
+
+#: ../ScripturaForms.php:64
+msgid "Invalid field: numeric characters are placed in your name."
+msgstr ""
+"Champ invalides : des caractères numériques sont placés dans votre nom."
+
+#: ../ScripturaForms.php:68
+msgid ""
+"Invalid field: special characters or punctuation are placed in your name."
+msgstr ""
+"Champ invalide : des caractères spéciaux ou des signes de ponctuation sont "
+"placés dans votre nom."
+
+#: ../ScripturaForms.php:72
+msgid "Invalid field: your name is not specified."
+msgstr "Champ invalide : vous n'avez pas terminé votre message."
+
+#: ../ScripturaForms.php:77
+msgid "Invalid field: your email is not consistent."
+msgstr "Champ invalide : votre e-mail est invalide."
+
+#: ../ScripturaForms.php:81
+msgid "Invalid field: your email is blank."
+msgstr "Champ invalide : votre e-mail est vide."
+
+#: ../ScripturaForms.php:87
+msgid ""
+"Invalid field: this item does not correspond to a local or international "
+"number. Do not put any spaces, dashes or points."
+msgstr ""
+"Champ invalide : ce numéro ne correspond pas à un numéro local ou "
+"international. Ne mettez pas d'espaces, des tirets ou des points."
+
+#: ../ScripturaForms.php:93
+msgid "You must choose a country."
+msgstr "Vous devez choisir un pays."
+
+#: ../ScripturaForms.php:103
+msgid ""
+"Invalid field: your message contains more than two links (spam protection)."
+msgstr ""
+"Champ invalide : votre message contient plus de deux liens (protection anti-"
+"spam)."
+
+#: ../ScripturaForms.php:107
+msgid "Invalid field: your message has less than 10 characters."
+msgstr "Champ invalide : votre message a moins de 10 caractères."
+
+#: ../ScripturaForms.php:111
+msgid "Invalid field: your message is longer than 4000 characters."
+msgstr "Champ invalide : Votre message a plus de 4000 caractères."
+
+#: ../ScripturaForms.php:115
+msgid "Invalid field: you have not completed your message."
+msgstr "Champ invalide : vous n'avez pas terminé votre message."
+
+#: ../ScripturaForms.php:142
+msgid ""
+"An error was detected on the form and it could not be sent. Please check all "
+"fields."
+msgstr ""
+"Une erreur a été détectée sur le formulaire et celui-ci n'a pas pu être "
+"envoyé. S'il vous plaît vérifier tous les champs."
+
+#: ../ScripturaForms.php:168
+msgid "Name:"
+msgstr "Nom :"
+
+#: ../ScripturaForms.php:169
+msgid "Email:"
+msgstr "E-mail :"
+
+#: ../ScripturaForms.php:170
+msgid "Phone:"
+msgstr "Téléphone :"
+
+#: ../ScripturaForms.php:171
+msgid "Country:"
+msgstr "Pays :"
+
+#: ../ScripturaForms.php:172
+msgid "Message:"
+msgstr "Message :"
+
+#: ../ScripturaForms.php:177
+msgid "Thank you Mr (Mrs)"
+msgstr "Merci Mr (Mme)"
+
+#: ../ScripturaForms.php:177
+msgid ""
+"Your message has been posted. A copy was sent to the entered email address"
+msgstr ""
+"Votre message a été posté. Une copie a été envoyée à l'adresse e-mail "
+"indiquée"
+
+#: ../ScripturaForms.php:178
+msgid "New message"
+msgstr "Nouveau message"
+
+#: ../ScripturaForms.php:204
+msgid "Name"
+msgstr "Nom"
+
+#: ../ScripturaForms.php:207
+msgid "John Smith"
+msgstr "Victor Hugo"
+
+#: ../ScripturaForms.php:214
+msgid "Email"
+msgstr "E-mail"
+
+#: ../ScripturaForms.php:224
+msgid "Phone"
+msgstr "Téléphone"
+
+#: ../ScripturaForms.php:234 ../ScripturaForms.php:239
+msgid "Country"
+msgstr "Pays"
+
+#: ../ScripturaForms.php:263
+msgid "Your message"
+msgstr "Votre message"
+
+#: ../ScripturaForms.php:263
+msgid "Good Morning..."
+msgstr "Bonjour..."
+
+#: ../ScripturaForms.php:273
+msgid "File"
+msgstr "Fichier"
+
+#: ../ScripturaForms.php:283
+msgid "Submit"
+msgstr "Soumettre"
+
+#~ msgid "Login"
+#~ msgstr "Connexion"
+
+#~ msgid "Identifiant:"
+#~ msgstr "Identifiant :"
+
+#~ msgid "First Name:"
+#~ msgstr "Prénom :"
+
+#~ msgid "Last Name:"
+#~ msgstr "Nom :"
+
+#~ msgid "External link:"
+#~ msgstr "Lien externe :"
+
+#~ msgid "Role:"
+#~ msgstr "Rôle :"
+
+#~ msgid "Group:"
+#~ msgstr "Groupe :"
+
+#~ msgid "Location:"
+#~ msgstr "Localisation"
+
+#~ msgid "Change profil"
+#~ msgstr "Modifier le profil"
+
+#~ msgid "Username or email"
+#~ msgstr "Nom d'utilisateur ou Email"
+
+#~ msgid "Pseudo / pseudo@gmail.com"
+#~ msgstr "Pseudo / pseudo@gmail.com"
+
+#~ msgid "Password"
+#~ msgstr "Mot de passe"
+
+#~ msgid "Save information"
+#~ msgstr "Sauver les informations"
+
+#~ msgid "Sign in"
+#~ msgstr "Se connecter"
+
+#~ msgid "Not yet registered?"
+#~ msgstr "Pas encore enregistré&nbsp;?"
+
+#~ msgid "Your password is invalid. Your connection attempt failed."
+#~ msgstr ""
+#~ "Votre mot de passe est invalide. Votre tentative de connexion a échoué."
+
+#~ msgid "Not registered?"
+#~ msgstr "Pas encore inscrit&nbsp;?"
+
+#~ msgid "Your profile"
+#~ msgstr "Votre profil"
+
+#~ msgid "ID:"
+#~ msgstr "ID :"
+
+#~ msgid "Display Name:"
+#~ msgstr "Nom affiché :"
+
+#~ msgid "Administration"
+#~ msgstr "Administration"
+
+#~ msgid "Logout"
+#~ msgstr "Déconnexion"
+
+#~ msgid "Enter a username"
+#~ msgstr "Entrer un nom d'utilisateur"
+
+#~ msgid "Enter a password"
+#~ msgstr "Entrer un mot de passe"
+
+#~ msgid "The password is too short (Least 6 characters)"
+#~ msgstr "Le mot de passe est trop court (6 caractères minimum)"
+
+#~ msgid "The email address is invalid"
+#~ msgstr "L'addresse email est invalide"
+
+#~ msgid "Enter a email"
+#~ msgstr "Entrer un email"
+
+#~ msgid "User created"
+#~ msgstr "Utilisateur créé"
+
+#~ msgid ""
+#~ "<p>Username: <strong>%1s</strong></p><p>Password: <strong>%2s</strong></"
+#~ "p><p>Email: <strong>%3s</strong></p>"
+#~ msgstr ""
+#~ "<p>Identifiant: <strong>%1s</strong></p><p>Mot de passe&nbsp;: <strong>"
+#~ "%2s</strong></p><p>Email&nbsp;: <strong>%3s</strong></p>"
+
+#~ msgid "Username"
+#~ msgstr "Nom d'utilisateur"
+
+#~ msgid "pseudo@gmail.com"
+#~ msgstr "pseudo@gmail.com"
+
+#~ msgid "The registration of new users is currently not allowed."
+#~ msgstr ""
+#~ "L'enregistrement de nouveaux utilisateurs n'est actuellement pas autorisé."
+
+#~ msgid ""
+#~ "The site moderation reserves the right to delete an account if the "
+#~ "conditions of use are not respected."
+#~ msgstr ""
+#~ "La modération du site se réserve le droit de supprimer un compte si les "
+#~ "conditions d'utilisation ne sont pas respectées."
+
+#~ msgid "Request to"
+#~ msgstr "Requête pour "
+
+#~ msgid "Keyword:"
+#~ msgstr "Mot clef :"
+
+#~ msgid "Keywords:"
+#~ msgstr "Mots clefs :"
+
+#~ msgid "This content is only visible to connected users."
+#~ msgstr "Ce contenu n'est visible que par les utilisateurs connectés."
+
+#~ msgid "This content is only visible to authorized users."
+#~ msgstr "Ce contenu n'est visible que par les utilisateurs autorisés."
+
+#~ msgid "Protected content"
+#~ msgstr "Contenu protégé"
+
+#~ msgid "Author:"
+#~ msgstr "Auteur :"
+
+#~ msgid "Source:"
+#~ msgstr "Source :"
+
+#~ msgid "Content published on"
+#~ msgstr "Contenu publié le"
+
+#~ msgid "modified on"
+#~ msgstr "modifié le"
+
+#~ msgid "Read article"
+#~ msgstr "Lire l'article"
+
+#~ msgid "Index the comment"
+#~ msgstr "Ajouter un commentaire"
+
+#~ msgid "Hello..."
+#~ msgstr "Bonjour..."
+
+#~ msgid "Add a comment"
+#~ msgstr "Ajouter un commentaire"
+
+#~ msgid "Comments"
+#~ msgstr "Commentaires"
+
+#~ msgid "Related Articles"
+#~ msgstr "Articles en relation"
+
+#~ msgid "Web Site:"
+#~ msgstr "Site web :"
+
+#~ msgid "On article"
+#~ msgstr "Sur l'article"
+
+#~ msgid "Article description"
+#~ msgstr "Description de l'article"
+
+#~ msgid "Sources"
+#~ msgstr "Sources"
