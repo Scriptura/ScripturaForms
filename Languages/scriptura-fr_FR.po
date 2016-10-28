@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ScripturaForms\n"
-"POT-Creation-Date: 2016-10-18 09:52+0100\n"
-"PO-Revision-Date: 2016-10-18 09:52+0100\n"
+"POT-Creation-Date: 2016-10-27 07:50+0100\n"
+"PO-Revision-Date: 2016-10-27 08:05+0100\n"
 "Last-Translator: \n"
 "Language-Team: Olivier Chavarin\n"
 "Language: fr_FR\n"
@@ -17,43 +17,43 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../ScripturaForms.php:52
+#: ../ScripturaForms.php:89
 msgid "Invalid field: your name contains a single character."
-msgstr "Champ invalide : votre nom contient un seul caractère."
+msgstr "Champ invalide : votre nom ne contient qu'un seul caractère."
 
-#: ../ScripturaForms.php:56
+#: ../ScripturaForms.php:93
 msgid "Invalid field: your name is longer than 30 characters."
-msgstr "Champ invalide : votre message a plus de 4000 caractères."
+msgstr "Champ invalide : votre nom contient plus de 30 caractères."
 
-#: ../ScripturaForms.php:60
+#: ../ScripturaForms.php:97
 msgid "Invalid field: it lacks a capital letter at the beginning of your name."
 msgstr "Champ invalide : il manque une lettre majuscule au début de votre nom."
 
-#: ../ScripturaForms.php:64
+#: ../ScripturaForms.php:101
 msgid "Invalid field: numeric characters are placed in your name."
 msgstr ""
 "Champ invalides : des caractères numériques sont placés dans votre nom."
 
-#: ../ScripturaForms.php:68
+#: ../ScripturaForms.php:105
 msgid ""
 "Invalid field: special characters or punctuation are placed in your name."
 msgstr ""
 "Champ invalide : des caractères spéciaux ou des signes de ponctuation sont "
 "placés dans votre nom."
 
-#: ../ScripturaForms.php:72
+#: ../ScripturaForms.php:109
 msgid "Invalid field: your name is not specified."
-msgstr "Champ invalide : vous n'avez pas terminé votre message."
+msgstr "Champ invalide : vous n'avez pas spécifié votre nom."
 
-#: ../ScripturaForms.php:77
+#: ../ScripturaForms.php:114
 msgid "Invalid field: your email is not consistent."
 msgstr "Champ invalide : votre e-mail est invalide."
 
-#: ../ScripturaForms.php:81
+#: ../ScripturaForms.php:118
 msgid "Invalid field: your email is blank."
 msgstr "Champ invalide : votre e-mail est vide."
 
-#: ../ScripturaForms.php:87
+#: ../ScripturaForms.php:124
 msgid ""
 "Invalid field: this item does not correspond to a local or international "
 "number. Do not put any spaces, dashes or points."
@@ -61,107 +61,124 @@ msgstr ""
 "Champ invalide : ce numéro ne correspond pas à un numéro local ou "
 "international. Ne mettez pas d'espaces, des tirets ou des points."
 
-#: ../ScripturaForms.php:93
+#: ../ScripturaForms.php:130
 msgid "You must choose a country."
 msgstr "Vous devez choisir un pays."
 
-#: ../ScripturaForms.php:103
+#: ../ScripturaForms.php:140
 msgid ""
 "Invalid field: your message contains more than two links (spam protection)."
 msgstr ""
 "Champ invalide : votre message contient plus de deux liens (protection anti-"
 "spam)."
 
-#: ../ScripturaForms.php:107
+#: ../ScripturaForms.php:144
 msgid "Invalid field: your message has less than 10 characters."
 msgstr "Champ invalide : votre message a moins de 10 caractères."
 
-#: ../ScripturaForms.php:111
+#: ../ScripturaForms.php:148
 msgid "Invalid field: your message is longer than 4000 characters."
 msgstr "Champ invalide : Votre message a plus de 4000 caractères."
 
-#: ../ScripturaForms.php:115
+#: ../ScripturaForms.php:152
 msgid "Invalid field: you have not completed your message."
-msgstr "Champ invalide : vous n'avez pas terminé votre message."
+msgstr "Champ invalide : vous n'avez pas complété votre message."
 
-#: ../ScripturaForms.php:142
+#: ../ScripturaForms.php:159
+msgid "Error transfer: start again."
+msgstr "Erreur lors du transfert : recommencez l'opération."
+
+#: ../ScripturaForms.php:163
+msgid "Not permitted file extension: this file is not allowed to download."
+msgstr ""
+"Extension de fichier non permise : ce fichier n'est pas autorisé au "
+"téléchargement."
+
+#: ../ScripturaForms.php:184
 msgid ""
 "An error was detected on the form and it could not be sent. Please check all "
 "fields."
 msgstr ""
 "Une erreur a été détectée sur le formulaire et celui-ci n'a pas pu être "
-"envoyé. S'il vous plaît vérifier tous les champs."
+"envoyé. Merci de vérifier tous les champs."
 
-#: ../ScripturaForms.php:168
+#: ../ScripturaForms.php:203
 msgid "Name:"
 msgstr "Nom :"
 
-#: ../ScripturaForms.php:169
+#: ../ScripturaForms.php:204
 msgid "Email:"
 msgstr "E-mail :"
 
-#: ../ScripturaForms.php:170
+#: ../ScripturaForms.php:205
 msgid "Phone:"
 msgstr "Téléphone :"
 
-#: ../ScripturaForms.php:171
+#: ../ScripturaForms.php:206
 msgid "Country:"
 msgstr "Pays :"
 
-#: ../ScripturaForms.php:172
+#: ../ScripturaForms.php:207
 msgid "Message:"
 msgstr "Message :"
 
-#: ../ScripturaForms.php:177
+#: ../ScripturaForms.php:212
 msgid "Thank you Mr (Mrs)"
 msgstr "Merci Mr (Mme)"
 
-#: ../ScripturaForms.php:177
+#: ../ScripturaForms.php:212
 msgid ""
 "Your message has been posted. A copy was sent to the entered email address"
 msgstr ""
 "Votre message a été posté. Une copie a été envoyée à l'adresse e-mail "
 "indiquée"
 
-#: ../ScripturaForms.php:178
+#: ../ScripturaForms.php:214
+msgid "Your attachment has been downloaded from the website:"
+msgstr "Votre pièce jointe a bien été téléchargée sur le site :"
+
+#: ../ScripturaForms.php:215
 msgid "New message"
 msgstr "Nouveau message"
 
-#: ../ScripturaForms.php:204
+#: ../ScripturaForms.php:243
 msgid "Name"
 msgstr "Nom"
 
-#: ../ScripturaForms.php:207
+#: ../ScripturaForms.php:255
 msgid "John Smith"
 msgstr "Victor Hugo"
 
-#: ../ScripturaForms.php:214
+#: ../ScripturaForms.php:263
 msgid "Email"
 msgstr "E-mail"
 
-#: ../ScripturaForms.php:224
+#: ../ScripturaForms.php:276
 msgid "Phone"
 msgstr "Téléphone"
 
-#: ../ScripturaForms.php:234 ../ScripturaForms.php:239
+#: ../ScripturaForms.php:287 ../ScripturaForms.php:292
 msgid "Country"
 msgstr "Pays"
 
-#: ../ScripturaForms.php:263
+#: ../ScripturaForms.php:318
 msgid "Your message"
 msgstr "Votre message"
 
-#: ../ScripturaForms.php:263
+#: ../ScripturaForms.php:318
 msgid "Good Morning..."
 msgstr "Bonjour..."
 
-#: ../ScripturaForms.php:273
-msgid "File"
-msgstr "Fichier"
+#: ../ScripturaForms.php:330
+msgid "Attached file"
+msgstr "Pièce jointe"
 
-#: ../ScripturaForms.php:283
+#: ../ScripturaForms.php:336
 msgid "Submit"
 msgstr "Soumettre"
+
+#~ msgid "File"
+#~ msgstr "Fichier"
 
 #~ msgid "Login"
 #~ msgstr "Connexion"
